@@ -27,7 +27,7 @@ export const projectsData = [
     description:
       "Full-stack social media engine powered by Express 5.0 & TypeScript, distributed Socket.io + Upstash Redis for instant messaging and notifications, smart feed algorithms, Cloudinary media CDN, and a dual Dark/Light mode theme system.",
     image: `${baseUrl}projects/sphere.jpg`,
-    liveUrl: "http://localhost:5173",
+    liveUrl: "https://social-app-ts-frontend.vercel.app",
     githubUrl: "https://github.com/khaledabdo-7/socialAppTS",
     tags: ["TypeScript", "Express 5.0", "Socket.io", "Redis", "MongoDB", "React", "TailwindCSS"],
     stackOverview: [
