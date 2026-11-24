@@ -2,6 +2,8 @@
  * Personal & Brand Information
  * Update links, contact info, and titles here.
  */
+const baseUrl = import.meta.env.BASE_URL;
+
 export const personalInfo = {
   name: "Khaled Abdullah El-Sayed",
   monogram: "KA.",
@@ -11,8 +13,8 @@ export const personalInfo = {
   
   // Replace with your personal photo in public/profile.jpg
   // If profile.jpg is not found, the website gracefully falls back to profile-placeholder.svg
-  photo: "/profile.jpg",
-  photoFallback: "/profile-placeholder.svg",
+  photo: `${baseUrl}profile.jpg`,
+  photoFallback: `${baseUrl}profile-placeholder.svg`,
 
   coreTechPills: [
     "NestJS",
