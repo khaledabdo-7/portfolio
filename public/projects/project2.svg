@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1C42" />
+      <stop offset="100%" stop-color="#010736" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p2Grad)" />
+  <rect x="40" y="40" width="720" height="370" rx="16" fill="none" stroke="#22396F" stroke-width="2" />
+
+  <rect x="70" y="70" width="660" height="40" rx="8" fill="#132454" />
+  <circle cx="95" cy="90" r="6" fill="#EF4444" />
+  <circle cx="115" cy="90" r="6" fill="#F59E0B" />
+  <circle cx="135" cy="90" r="6" fill="#10B981" />
+  <text x="400" y="95" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#94A3B8">ws://realtime.workspace.io/v1/stream</text>
+
+  <!-- Chat & Presence Mockup -->
+  <rect x="70" y="130" width="220" height="250" rx="10" fill="#0A1637" stroke="#22396F" stroke-width="1" />
+  <text x="90" y="165" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="14" fill="#FCF1D0">Active Channels</text>
+  <rect x="85" y="180" width="190" height="32" rx="6" fill="#132454" />
+  <text x="95" y="201" font-family="'Inter', sans-serif" font-size="12" fill="#FFFFFF"># dev-collaboration</text>
+  <rect x="85" y="220" width="190" height="32" rx="6" fill="transparent" />
+  <text x="95" y="241" font-family="'Inter', sans-serif" font-size="12" fill="#94A3B8"># system-telemetry</text>
+  <rect x="85" y="260" width="190" height="32" rx="6" fill="transparent" />
+  <text x="95" y="281" font-family="'Inter', sans-serif" font-size="12" fill="#94A3B8"># deploy-alerts</text>
+
+  <!-- Live Feed -->
+  <rect x="310" y="130" width="420" height="250" rx="10" fill="#0A1637" stroke="#22396F" stroke-width="1" />
+  <text x="330" y="165" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Real-Time Collaborative Engine</text>
+  <text x="330" y="190" font-family="'Inter', sans-serif" font-size="13" fill="#FCF1D0">WebSockets, Socket.io, React &amp; Redis Pub/Sub</text>
+
+  <rect x="330" y="210" width="380" height="60" rx="8" fill="#132454" stroke="#22396F" stroke-width="1" />
+  <text x="345" y="235" font-family="'JetBrains Mono', monospace" font-size="12" fill="#FCF1D0">User: khaled_eng joined workspace room</text>
+  <text x="345" y="255" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10B981">Socket Handshake ACK: latency 8ms</text>
+
+  <rect x="330" y="285" width="380" height="75" rx="8" fill="#0E1C40" stroke="#22396F" stroke-width="1" />
+  <text x="345" y="312" font-family="'Inter', sans-serif" font-size="12" fill="#FFFFFF">Document Synchronized across 4 concurrent clients</text>
+  <text x="345" y="337" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94A3B8">Operational Transformation / CRDT sync ok</text>
+</svg>

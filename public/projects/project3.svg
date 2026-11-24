@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1C42" />
+      <stop offset="100%" stop-color="#010736" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p3Grad)" />
+  <rect x="40" y="40" width="720" height="370" rx="16" fill="none" stroke="#22396F" stroke-width="2" />
+
+  <rect x="70" y="70" width="660" height="40" rx="8" fill="#132454" />
+  <circle cx="95" cy="90" r="6" fill="#EF4444" />
+  <circle cx="115" cy="90" r="6" fill="#F59E0B" />
+  <circle cx="135" cy="90" r="6" fill="#10B981" />
+  <text x="400" y="95" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#94A3B8">auth-gateway / rbac / token-rotation</text>
+
+  <rect x="70" y="130" width="320" height="250" rx="10" fill="#0A1637" stroke="#22396F" stroke-width="1" />
+  <text x="95" y="165" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Security &amp; Auth Gateway</text>
+  <text x="95" y="190" font-family="'Inter', sans-serif" font-size="13" fill="#FCF1D0">Enterprise JWT, RBAC &amp; Rate Limiter</text>
+  
+  <text x="95" y="235" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94A3B8">• Dual-Token (Access + Refresh Rotation)</text>
+  <text x="95" y="265" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94A3B8">• Bcrypt Salt Rounds: 12</text>
+  <text x="95" y="295" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94A3B8">• Redis Distributed Token Blacklist</text>
+  <text x="95" y="325" font-family="'JetBrains Mono', monospace" font-size="12" fill="#10B981">• Helmet CSP &amp; CORS Hardened</text>
+  <text x="95" y="355" font-family="'JetBrains Mono', monospace" font-size="12" fill="#FCF1D0">• Sliding Window Rate Limiting (Redis)</text>
+
+  <!-- Security Shield & Stats -->
+  <rect x="410" y="130" width="320" height="250" rx="10" fill="#0A1637" stroke="#22396F" stroke-width="1" />
+  <circle cx="570" cy="220" r="45" fill="#132454" stroke="#FCF1D0" stroke-width="2" />
+  <text x="570" y="228" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="28" fill="#FCF1D0">✓</text>
+  <text x="570" y="295" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">OWASP Top 10 Compliant</text>
+  <text x="570" y="325" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#10B981">0 Vulnerabilities Detected</text>
+  <text x="570" y="350" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#94A3B8">Automated CI/CD security audits</text>
+</svg>

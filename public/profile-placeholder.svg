@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1C42" />
+      <stop offset="100%" stop-color="#010736" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCF1D0" />
+      <stop offset="100%" stop-color="#22396F" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)" />
+  <circle cx="200" cy="200" r="190" fill="none" stroke="#22396F" stroke-width="3" stroke-dasharray="10 10" />
+  
+  <!-- Silhouette / Monogram Avatar -->
+  <circle cx="200" cy="150" r="65" fill="#22396F" />
+  <path d="M90 340 C100 240, 300 240, 310 340 Z" fill="#22396F" opacity="0.8" />
+  
+  <circle cx="200" cy="150" r="50" fill="#0D1C42" />
+  <text x="200" y="162" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="38" fill="#FCF1D0">KA</text>
+  
+  <rect x="70" y="325" width="260" height="34" rx="17" fill="#0D1C42" stroke="#22396F" stroke-width="1.5" />
+  <text x="200" y="347" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#FCF1D0" letter-spacing="1">Khaled Abdullah</text>
+</svg>
